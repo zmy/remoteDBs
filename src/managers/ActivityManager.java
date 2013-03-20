@@ -7,6 +7,17 @@ import resources.Resource;
 
 public class ActivityManager implements Manager {
 
+	static String keys[] = { // list of keys
+		"name",
+		"organization", // the organiztion it belongs to
+		"venue",
+		"datetime",
+		"description",
+		"tags",
+		"poster",
+		"exhibitions" // link to devices
+	};
+
 	@Override
 	public String[] getKeys() {
 		// TODO Auto-generated method stub

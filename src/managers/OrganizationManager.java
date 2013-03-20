@@ -4,8 +4,29 @@ import java.util.Map;
 import java.util.Set;
 
 import resources.Resource;
+import resources.Activity;
 
 public class OrganizationManager implements Manager {
+
+	static String keys[] = { // list of keys
+		"name",
+		"school",
+		"type", // charity or not
+		"class", // e.g. sports, art, music, science or ...
+		"members",
+		"chairman",
+		"microblog", // link of microblog
+		"mobile", // cellphone number of the chairman
+		"avatar",
+		"hashPWD",
+		"tags",
+		"description"
+	};
+
+	public static Set<Activity> getActivities() { // get the activities of the organization
+		// TODO: connect to Camus to check
+		return null;
+	}
 
 	@Override
 	public String[] getKeys() {
