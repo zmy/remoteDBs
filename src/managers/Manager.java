@@ -14,7 +14,7 @@ public interface Manager {
 
 	/**
 	 * Each resource is attached with multiple (key: value) pairs.
-	 * You'd better defined is as constant values in a type of recourse.
+	 * You'd better define it as constant values in a type of recourse.
 	 * @return The first element of the String array is the key corresponding to URI!
 	 */
 	public String[] getKeys();
